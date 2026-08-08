@@ -2,7 +2,7 @@
 
 > 🤖 AI-powered Air Quality Monitoring & Prediction
 
-  🚦 Think of it as a "weather app for pollution" — but with prediction + real-time insights.
+🚦 Think of it as a "weather app for pollution" — but with prediction + real-time insights.
 
 ## 🌐 Live Demo
 
