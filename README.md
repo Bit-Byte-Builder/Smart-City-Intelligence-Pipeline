@@ -1,4 +1,6 @@
-# 🌆 Smart City Air Quality Prediction System
+# 🏙️ Smart City Intelligence Pipeline — Air Quality Prediction System
+
+> 🤖 AI-powered Air Quality Monitoring & Prediction
 
  🚦 Think of it as a "weather app for pollution" — but with prediction + real-time insights.
 
