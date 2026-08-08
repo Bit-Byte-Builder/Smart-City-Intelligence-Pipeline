@@ -92,7 +92,7 @@ feature_columns = pickle.load(open("models/feature_columns.pkl", "rb"))
 # -------------------------------
 # 🏙️ HEADER
 # -------------------------------
-st.title("🏙️ Smart City Intelligence Platform")
+st.title("🏙️ Smart City Intelligence Pipeline")
 st.caption("AI-powered Air Quality Monitoring & Prediction")
 
 # -------------------------------
