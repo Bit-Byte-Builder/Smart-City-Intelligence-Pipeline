@@ -254,7 +254,7 @@ Shows how pollution levels are changing over time and helps identify recent tren
 
 ## 🏗️ Project Architecture
 
-```text
+```bash
 Historical Pollution Data
           │
           ▼
@@ -287,7 +287,7 @@ Weather API          Air Quality API
      Prediction + Insights
 ```
 
-```text
+```bash
 ## 📁 Project Structure
 
 Smart-City-Intelligence-Pipeline/
@@ -318,7 +318,7 @@ Smart-City-Intelligence-Pipeline/
 
 The trained model and feature information are stored in the `models/` directory.
 
-```text
+```bash
 models/
 ├── pollution_model.pkl
 └── feature_columns.pkl
@@ -368,14 +368,14 @@ Keeping these artifacts in the repository allows the deployed application to loa
 ## 📦 Installation
 Clone the repository:
 
-```text
+```bash
 git clone https://github.com/Bit-Byte-Builder/Smart-City-Intelligence-Pipeline.git
 cd Smart-City-Intelligence-Pipeline
 ```
 
 ## Install the required dependencies:
 
-```text
+```bash
 pip install -r requirements.txt
 ```
 
@@ -391,13 +391,13 @@ Create the following file in the project directory:
 .streamlit/secrets.toml
 
 Add your API key:
-OPENWEATHER_API_KEY = "your_api_key_here"
+OPENWEATHER_API_KEY=your_api_key_here
 
 ## ▶️ Run Locally
 
 After configuring the API key, run:
 
-```text
+```bash
 streamlit run streamlit_dashboard.py
 ```
 
