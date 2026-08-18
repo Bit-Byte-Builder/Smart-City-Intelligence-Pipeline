@@ -287,9 +287,8 @@ Weather API          Air Quality API
      Prediction + Insights
 ```
 
-```bash
 ## 📁 Project Structure
-
+```bash
 Smart-City-Intelligence-Pipeline/
 │
 ├── .devcontainer/
