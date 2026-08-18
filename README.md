@@ -367,15 +367,15 @@ Keeping these artifacts in the repository allows the deployed application to loa
 ## 📦 Installation
 
 Clone the repository:
-
 ```bash
 git clone https://github.com/Bit-Byte-Builder/Smart-City-Intelligence-Pipeline.git
 cd Smart-City-Intelligence-Pipeline
-
+```
 Install the required dependencies:
-
+```bash
 pip install -r requirements.txt
 ```
+
 
 ## 🔐 API Configuration
 
