@@ -374,7 +374,6 @@ cd Smart-City-Intelligence-Pipeline
 
 Install the required dependencies:
 
-```bash
 pip install -r requirements.txt
 ```
 
