@@ -289,6 +289,7 @@ Weather API          Air Quality API
      Prediction + Insights
 ```
 
+```text
 ## 📁 Project Structure
 
 smart-city-intelligence-pipeline/
@@ -313,6 +314,7 @@ smart-city-intelligence-pipeline/
 ├── .gitignore
 ├── LICENSE
 └── README.md
+```
 
 ## 💾 Model Artifacts
 
