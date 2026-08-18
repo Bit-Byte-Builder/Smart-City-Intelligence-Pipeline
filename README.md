@@ -318,15 +318,21 @@ smart-city-intelligence-pipeline/
 
 ## 💾 Model Artifacts
 
-The trained model and feature information are stored in the models/ directory.
+The trained model and feature information are stored in the `models/` directory.
 
-pollution_model.pkl
+```text
+models/
+├── pollution_model.pkl
+└── feature_columns.pkl
 
-Contains the trained PM2.5 regression model used by the Streamlit application.
+`pollution_model.pkl`
 
-feature_columns.pkl
+Contains the trained XGBoost regression model used by the Streamlit application to generate PM2.5 predictions.
 
-Contains the feature-column structure required to align application inputs with the trained model.
+
+`feature_columns.pkl`
+
+Contains the feature-column structure used during model training. The application uses this artifact to ensure that input features are aligned with the model's expected feature structure.
 
 Keeping these artifacts in the repository allows the deployed application to load the trained model without retraining it every time the application starts.
 
