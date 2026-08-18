@@ -321,19 +321,19 @@ The trained model and feature information are stored in the `models/` directory.
 models/
 ├── pollution_model.pkl
 └── feature_columns.pkl
+```
 
-`pollution_model.pkl`
+### pollution_model.pkl
 
 Contains the trained XGBoost regression model used by the Streamlit application to generate PM2.5 predictions.
 
-
-`feature_columns.pkl`
+### feature_columns.pkl
 
 Contains the feature-column structure used during model training. The application uses this artifact to ensure that input features are aligned with the model's expected feature structure.
 
 
 Keeping these artifacts in the repository allows the deployed application to load the trained model without retraining it every time the application starts.
-```
+
 
 ## 🛠️ Tech Stack
 
@@ -365,6 +365,7 @@ Keeping these artifacts in the repository allows the deployed application to loa
 - Pickle
 
 ## 📦 Installation
+
 Clone the repository:
 
 ```bash
