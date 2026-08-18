@@ -307,7 +307,7 @@ smart-city-intelligence-pipeline/
 │
 ├── dashboard_main.png
 ├── prediction_output.png
-├── api_guage.png
+├── api_gauge.png
 ├── trend_chart.png
 │
 ├── requirements.txt
