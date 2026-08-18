@@ -371,9 +371,8 @@ Clone the repository:
 ```bash
 git clone https://github.com/Bit-Byte-Builder/Smart-City-Intelligence-Pipeline.git
 cd Smart-City-Intelligence-Pipeline
-```
 
-## Install the required dependencies:
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -392,7 +391,7 @@ Create the following file in the project directory:
 
 Add your API key:
 
-```env
+```TOML
 OPENWEATHER_API_KEY = "your_api_key_here"
 ```
 
