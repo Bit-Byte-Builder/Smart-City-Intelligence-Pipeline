@@ -66,9 +66,7 @@ The project uses historical air-quality and meteorological observations containi
 - Wind direction
 - Time-based observations
 
-The target variable for the regression models is:
-
-`PM2.5`
+The target variable for the regression models is: `PM2.5`
 
 Historical observations are used to create lagged and rolling features that capture recent pollution behaviour.
 
