@@ -254,7 +254,7 @@ Shows how pollution levels are changing over time and helps identify recent tren
 
 ## 🏗️ Project Architecture
 
-```bash
+```text
 Historical Pollution Data
           │
           ▼
@@ -288,7 +288,7 @@ Weather API          Air Quality API
 ```
 
 ## 📁 Project Structure
-```bash
+```text
 Smart-City-Intelligence-Pipeline/
 │
 ├── .devcontainer/
@@ -317,7 +317,7 @@ Smart-City-Intelligence-Pipeline/
 
 The trained model and feature information are stored in the `models/` directory.
 
-```bash
+```text
 models/
 ├── pollution_model.pkl
 └── feature_columns.pkl
@@ -390,7 +390,10 @@ Create the following file in the project directory:
 .streamlit/secrets.toml
 
 Add your API key:
-OPENWEATHER_API_KEY=your_api_key_here
+
+```env
+OPENWEATHER_API_KEY = "your_api_key_here"
+```
 
 ## ▶️ Run Locally
 
