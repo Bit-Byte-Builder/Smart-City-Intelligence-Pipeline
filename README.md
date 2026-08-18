@@ -344,24 +344,24 @@ Keeping these artifacts in the repository allows the deployed application to loa
 - Pandas
 - NumPy
  
-## Machine Learning
+### Machine Learning
 - Scikit-learn
 - XGBoost
 
-## Visualization
+### Visualization
 - Plotly
 - Matplotlib
 - Seaborn
  
-## Web Application
+### Web Application
 - Streamlit
 
-## APIs
+### APIs
 - OpenWeather Geocoding API
 - OpenWeather Current Weather API
 - OpenWeather Air Pollution API
 
-## Model Persistence
+### Model Persistence
 - Pickle
 
 ## 📦 Installation
@@ -406,7 +406,7 @@ streamlit run streamlit_dashboard.py
 
 The repository also includes the original project notebook:
 
-Smart_City_Intelligence_Pipeline.ipynb
+`Smart_City_Intelligence_Pipeline.ipynb`
 
 The notebook contains the data preparation, feature engineering, model development, and evaluation workflow used to build the deployed application.
 
