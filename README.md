@@ -374,4 +374,110 @@ pip install -r requirements.txt
 
 ```
 
+## 🔐 API Configuration
 
+The application uses an external weather and air-quality API.
+
+### Do not hard-code API credentials in streamlit_dashboard.py.
+
+### Local Development
+
+Create the following file in the project directory:
+.streamlit/secrets.toml
+
+Add your API key:
+OPENWEATHER_API_KEY = "your_api_key_here"
+
+## ▶️ Run Locally
+
+After configuring the API key, run:
+
+```text
+streamlit run streamlit_dashboard.py
+```
+
+## 🧪 Notebook
+
+The repository also includes the original project notebook:
+
+Smart_City_Intelligence_Pipeline.ipynb
+
+The notebook contains the data preparation, feature engineering, model development, and evaluation workflow used to build the deployed application.
+
+## 💡 Potential Use Cases
+
+The system can serve as a prototype for:
+
+- Urban air-quality monitoring
+- Environmental data analysis
+- Pollution trend analysis
+- Public awareness dashboards
+- Smart-city analytics
+- Environmental research
+- Predictive pollution monitoring
+
+For real-world deployment, predictions would need to be validated against authoritative monitoring stations and domain-specific environmental standards.
+
+## ⚠️ Limitations
+
+This project is a machine-learning prototype and should not be treated as an official air-quality monitoring or forecasting system.
+
+Important limitations include:
+
+- Model performance depends on the historical dataset and feature availability.
+- Real-time API measurements may differ from model predictions.
+- The current application relies partly on user-provided recent PM2.5 lag values.
+- The application uses a simplified feature construction process for interactive predictions.
+- Environmental conditions can change rapidly and may not be fully represented by the available features.
+- Model performance should be evaluated using robust temporal validation before production deployment.
+- Official air-quality measurements should be preferred for public-health decisions.
+
+## 🔮 Future Improvements
+
+Potential improvements include:
+
+- Automated retrieval of historical PM2.5 lag values.
+- More robust time-series validation.
+- Multi-step PM2.5 forecasting.
+- Additional meteorological variables.
+- Traffic and industrial-emission data integration.
+- Real-time pollution alerts.
+- SMS or notification-based warnings.
+- Model monitoring and drift detection.
+- Prediction intervals and uncertainty estimation.
+- Explainable AI using SHAP.
+- Cloud-based scalable deployment.
+- Mobile-friendly dashboard.
+- Integration with official air-quality monitoring sources.
+
+## 📚 Learning Outcomes
+
+This project provided practical experience in:
+
+- Data preprocessing
+- Exploratory Data Analysis
+- Feature engineering
+- Time-based features
+- Regression modelling
+- Random Forest
+- XGBoost
+- Model evaluation
+- Model persistence
+- API integration
+- Streamlit application development
+- Interactive data visualization
+- Deploying a machine-learning application
+
+## 📌 Conclusion
+
+This project demonstrates an end-to-end machine-learning approach to PM2.5 prediction, covering data preparation, feature engineering, regression modelling, model evaluation, model persistence, real-time API integration, and Streamlit deployment.
+
+It also demonstrates how historical environmental data and real-time information can be combined into an interactive decision-support prototype for exploratory air-quality analysis.
+
+The system is intended as a portfolio and analytical prototype rather than an official air-quality forecasting or monitoring service.
+
+## 👨‍💻 Author
+
+### Sachin Kumar
+
+### 📌 Data Science Enthusiast
