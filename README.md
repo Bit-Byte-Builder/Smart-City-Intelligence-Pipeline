@@ -28,6 +28,14 @@ The system provides:
 - City-based geolocation
 - A Streamlit dashboard for interactive analysis
 
+## 🌍 Why This Project Matters
+
+Air-quality monitoring is often reactive, while predictive analytics can provide an additional signal about potential short-term pollution changes.
+
+This project demonstrates how historical pollution patterns, meteorological variables, and real-time environmental APIs can be combined into a single interactive system for exploratory and predictive air-quality analysis.
+
+The system is intended as a prototype and decision-support demonstration rather than an official forecasting or monitoring service.
+
 ### End-to-End Workflow
 
 **Historical Data → Data Preparation → Feature Engineering → Model Training → Model Evaluation → Model Persistence → Real-Time API Integration → Streamlit Deployment**
@@ -234,15 +242,6 @@ Helps identify whether things are **improving or getting worse**.
 
 ---
 
-## 🎯 Use Cases
-
-- City authorities monitoring pollution trends  
-- Public health awareness & alerts  
-- Urban planning & traffic regulation  
-- Environmental research & analysis  
-
----
-
 ## 🏗️ Project Architecture
 
 Historical Pollution Data
@@ -345,14 +344,9 @@ Keeping these artifacts in the repository allows the deployed application to loa
 
 ## 📦 Installation
 
-Clone the repository:
-```git clone https://github.com/Bit-Byte-Builder/smart-city-intelligence-pipeline.git
-
-Navigate to the project directory:
-```cd smart-city-intelligence-pipeline
-
-Install the required dependencies:
-```pip install -r requirements.txt
+git clone https://github.com/Bit-Byte-Builder/smart-city-intelligence-pipeline.git
+cd smart-city-intelligence-pipeline
+pip install -r requirements.txt
 
 ## 🔐 API Configuration
 
