@@ -334,6 +334,7 @@ Contains the trained XGBoost regression model used by the Streamlit application 
 
 Contains the feature-column structure used during model training. The application uses this artifact to ensure that input features are aligned with the model's expected feature structure.
 
+
 Keeping these artifacts in the repository allows the deployed application to load the trained model without retraining it every time the application starts.
 ```
 
